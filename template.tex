@@ -1,7 +1,5 @@
 %-------------------------
 % Resume in LateX
-% Author : Sourabh Bajaj
-% License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -95,11 +93,10 @@
 
 LinkedIn: & \href{https://www.linkedin.com/in/ray-zhang-8550ba301/}
 { https://www.linkedin.com/in/ray-zhang-8550ba301/}\\[2pt]
-Github:  & \href{https://github.com/zerayo714}{ https://github.com/zerayo714}\\[2pt]
+GitHub:  & \href{https://github.com/zerayo714}{ https://github.com/zerayo714}\\[2pt]
 Email:    & \href{mangoray123@gmail.com}{ mangoray123@gmail.com}\\[2pt]
 Mobile:   &  +886-913969916
 \end{tabular}
-
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -107,14 +104,15 @@ Mobile:   &  +886-913969916
 
     \resumeSubheading
       {National Sun Yat-sen University (NSYSU)}{Kaohsiung, Taiwan}
-      {Master of Information Management(MIS), AI Laboractory}{Sep 2023 - July 2025}
+      {Master of Information Management (MIS), AI Laboratory}{Sep 2023 - July 2025(Expected)}
       \\[1.5ex]
-    \textit{Courses: Generative AI, Data analysis and visualization}
+    % \textit{Courses: Generative AI, Data Analysis and Visualization}
+
     \resumeSubheading
       {National Changhua University of Education (NCUE)}{Changhua, Taiwan}
-      {Bachelor of Information Management(MIS)}{Sep 2019 - June 2023}
+      {Bachelor of Information Management (MIS)}{Sep 2019 - June 2023}
      \\[1.5ex]
-    \textit{Courses: DS and Algorithm, MIS, Programming, Database, Operating System, Networking, Digital Content}
+    % \textit{Courses: Data Structures and Algorithms, Programming, Database Systems, Operating Systems, Networking}
   \resumeSubHeadingListEnd
 
 
@@ -122,67 +120,72 @@ Mobile:   &  +886-913969916
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Winbond - Leveraging AI to Improve Operational Efficiency}{Taichung}
-      {Software engineer intern}{July 2024 - August 2024}
-      \resumeItemListStart
-        \resumeItem{ELK stack}
-          {Integrated the error-reporting platform API from the Intelligent Manufacturing Center and ingested the data into Elasticsearch. Created Index Patterns in Kibana to visualize and validate key fields. Regularly queried specific fields using Elasticsearch DSL for data cleaning, performed data chunking, and stored the processed output in a vector database to support downstream analysis and modeling tasks.}
-       
-        \resumeItem{AI Chatbot}
-          {Received and processed raw data, performing Base64 decoding on images. Developed a multimodal AI chatbot on the error-reporting platform that automatically updates on a scheduled basis, built using the LangChain framework.}\\
-      \resumeItemListEnd
-      \textbf{Contribution: } {Reduce manual costs and waiting time to enhance work efficiency.}
+% ============================
+% Winbond
+% ============================
+\resumeSubheading
+  {Winbond – Leveraging AI to Improve Manufacturing Operations}{Taichung, Taiwan}
+  {Software Engineer Intern}{July 2024 - August 2024}
+  \resumeItemListStart
 
-    \resumeSubheading
-      {Final, Participation in AI Application Paper Competition}{Taipei}
-      {Presenter}{}
-      \resumeItemListStart
-        \resumeItem{RAG framework}
-          {Developed an optimized RAG-based framework that outperformed traditional RAG in a domain-specific setting.}
-        \resumeItem{Biomedical domain}
-          {Designed a biomedical-specific RAG framework using fully on-premise models.}
-        \resumeItem{Knowledge Graph Mixed Vector Space}
-          {Developed a hybrid ranking method that combines structured and unstructured data using knowledge graph and vector similarity.}
+    \resumeItem{AI Log Intelligence Platform}
+    {Designed and implemented an AI-powered manufacturing log intelligence system by ingesting factory error-reporting APIs into Elasticsearch, performing data normalization, chunking, and vectorization for downstream LLM-based root-cause analysis and troubleshooting.}
 
-      \resumeItemListEnd
+    \resumeItem{Multimodal AI Assistant}
+    {Built a production-oriented multimodal AI assistant that processes natural-language queries and image inputs via LangChain-based retrieval pipelines to support manufacturing troubleshooting.}
+
+    \resumeItem{System Automation}
+    {Implemented scheduled data ingestion and indexing pipelines to ensure continuously updated operational knowledge for real-time AI-driven decision support.}
+
+  \resumeItemListEnd
+  \textbf{Impact:} Automated analysis of approximately 50 daily manufacturing error cases, resolving about 50\% via AI and reducing manual engineer investigations by around 25 cases per day.
 
 
-  \resumeSubHeadingListEnd
+
+
+% ============================
+% AI Next Mine
+% ============================
+\resumeSubheading
+  {AI Next Mine – LLMOps and AI Platform Engineering}{Remote}
+  {AI Engineer Intern}{September 2025 - December 2025}
+  \resumeItemListStart
+    \resumeItem{Engineering Document \& CAD Intelligence Platform}
+{Built a containerized, API-driven AI platform supporting over 30 document formats and native CAD engineering drawings, enabling real-time visualization, semantic search, and LLM-powered Q\&A over structured design data.}
+
+
+    \resumeItem{Multimodal Retrieval}
+    {Designed an LLM-based pipeline integrating speech (via Whisper transcripts), images, and text into a unified vector database for scalable knowledge retrieval.}
+  \resumeItemListEnd
+    \textbf{Impact:} Enabled web-based visualization and AI-driven analysis of CAD engineering drawings, eliminating the need for native CAD software and enabling natural-language queries over structured design data.
+
+
+
+\resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
 \section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{RAG chatbot}
-      {}
-          \resumeItemListStart
-        \resumeItem{LangChain}
-          {Using Langhcain framework to build a RAG pipeline, split documents, and create a permanent Chroma database}
-       
-        \resumeItem{Streamlit}
-          {Developed a chatbot on Streamlit platform that allows users to import external files. The robot will refer to the received external information to generate answers}\\
-          
-      \resumeItemListEnd
-      \resumeSubItem{Senior Project- LOSTLANE- LUXEM’S CRISIS}
-      {(3D third-person adventure game)}
-          \resumeItemListStart
-        \resumeItem{3D Modeling}
-          {Created 3D models of both large-scale and small-scale objects using Autodesk Maya, and designed game-ready characters using Character Creator.}
-          \resumeItem{Programming}
-          {Imported 3D models into Unity and implemented character control logic and object interaction using C\#. Developed AI enemy behaviors including object and player detection, movement patterns, and area-based navigation constraints.}
+\resumeSubHeadingListStart
 
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
+\resumeSubItem{RAG Chatbot}{}
+  \resumeItemListStart
+    \resumeItem{LLM-powered Retrieval System}
+    {Built a LangChain-based RAG system with document ingestion, embedding, and vector storage, enabling users to upload files and perform context-aware Q\&A via a Streamlit interface.}
+  \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
 
 
 % --------SKILLS------------
 \section{Skills}
  \resumeSubHeadingListStart
-   \item{\textbf{Programming}{: Java, C++, C\#, Python, SQL}}
-    \item\textbf{Tools}{: Git, Langchain, Azure OpenAI service, MySQL, ELK}
-    \item\textbf{Interest}{: Generative AI, Blockchain, Cryptocurrency}
-
+   \item{\textbf{Programming}{: Python, Java, C++, C\#, TypeScript, SQL}}
+   \item{\textbf{Infrastructure \& DevOps}{: Docker, Microsoft Azure, Git}}
+   \item{\textbf{Databases}{: MySQL, PostgreSQL, Weaviate}}
+   \item{\textbf{AI \& Workflow}{: LangChain, Elysia, Haystack, n8n}}
+   \item{\textbf{Interests}{: Generative AI, Smart Manufacturing, Engineering, Investing}}
  \resumeSubHeadingListEnd
 
 \end{document}
