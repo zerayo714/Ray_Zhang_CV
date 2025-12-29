@@ -48,5 +48,5 @@ Bachelor of Information Management (MIS) (Sep 2019 – June 2023)
 - **Programming:** Python, Java, C++, C#, TypeScript, SQL
 - **Infrastructure & DevOps:** Docker, Microsoft Azure, Git
 - **Databases:** MySQL, PostgreSQL, Weaviate
-- **AI & Workflow:** LangChain, Elysia, Haystack, n8n
+- **AI & Workflow:** LangChain, Elysia, Haystack, n8n(Completed n8n Course Level 2)
 - **Interests:** Generative AI, Smart Manufacturing, Engineering, Investing
