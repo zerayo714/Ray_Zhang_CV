@@ -28,7 +28,7 @@ Bachelor of Information Management (MIS) (Sep 2019 – June 2023)
 - **Impact:** Automated analysis of approximately 50 daily manufacturing error cases, resolving about 50% via AI and reducing manual engineer investigations by around 25 cases per day.
 
 ### AI Next Mine — LLMOps and AI Platform Engineering (Remote)  
-**AI Engineer Intern** (September 2025 – December 2025)
+**AI Engineer Intern** (September 2025 – January 2026)
 
 - **Engineering Document & CAD Intelligence Platform:** Built a containerized, API-driven AI platform supporting over 30 document formats and native CAD engineering drawings, enabling real-time visualization, semantic search, and LLM-powered Q&A over structured design data.
 - **Multimodal Retrieval:** Designed an LLM-based pipeline integrating speech (via Whisper transcripts), images, and text into a unified vector database for scalable knowledge retrieval.
